@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atelier Mara | Creative Portfolio</title>
+<meta name="description" content="Atelier Mara is a creative portfolio template for designers and photographers.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="topnav">
+  <div class="navinner">
+    <a href="#home" class="brand" aria-label="Atelier home">
+      <span class="brandmark" aria-hidden="true"></span>
+      <span class="brandtext">Atelier&nbsp;Mara</span>
+    </a>
+    <nav class="links" id="navlinks" aria-label="Primary">
+      <a href="#home" class="navlink isactive">Home</a>
+      <a href="#work" class="navlink">Work</a>
+      <a href="#about" class="navlink">About</a>
+      <a href="#contact" class="navlink">Contact</a>
+      <a href="#contact" class="btn btnsmall btnaccent navcta">Start a project</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="home">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap heroGrid">
+      <div class="heroCopy reveal">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Portfolio 2026 · Available for commissions</p>
+        <h1 class="heroTitle">Design that feels warm, bold and human.</h1>
+        <p class="lede">I am Mara, a visual designer and photographer crafting brand worlds, editorial layouts and quiet photo stories for kind clients.</p>
+        <div class="ctaRow">
+          <a href="#work" class="btn btnaccent">View selected work</a>
+          <a href="#contact" class="btn btnghost">Get in touch</a>
+        </div>
+        <dl class="stats">
+          <div><dt>09</dt><dd>Years of practice</dd></div>
+          <div><dt>120</dt><dd>Projects shipped</dd></div>
+          <div><dt>14</dt><dd>Global awards</dd></div>
+        </dl>
+      </div>
+
+      <div class="portraitCard reveal" aria-label="Stylised portrait card">
+        <div class="portraitTop">
+          <span class="pill">Based in Lisbon</span>
+          <span class="pill pilldark">Open for work</span>
+        </div>
+        <div class="portraitArt" aria-hidden="true">
+          <div class="arch"></div>
+          <div class="sun"></div>
+          <svg class="face" viewBox="0 0 200 200" role="img" aria-label="Abstract face illustration">
+            <circle cx="100" cy="82" r="46" fill="#1A1A1A"></circle>
+            <circle cx="84" cy="78" r="6" fill="#FAF7F2"></circle>
+            <circle cx="116" cy="78" r="6" fill="#FAF7F2"></circle>
+            <path d="M82 102 Q100 116 118 102" stroke="#FAF7F2" stroke-width="5" fill="none" stroke-linecap="round"></path>
+            <path d="M62 58 Q100 20 138 58" stroke="#E85D3D" stroke-width="10" fill="none" stroke-linecap="round"></path>
+            <rect x="70" y="132" width="60" height="34" rx="17" fill="#E85D3D"></rect>
+          </svg>
+          <div class="blob b1"></div>
+          <div class="blob b2"></div>
+          <div class="cardShape sq"></div>
+          <div class="cardShape ring"></div>
+        </div>
+        <div class="portraitBottom">
+          <div>
+            <p class="pname">Mara Voss</p>
+            <p class="prole">Designer and Photographer</p>
+          </div>
+          <a href="#contact" class="btn btnsmall btnink">Book a call</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee" aria-label="Skills strip">
+      <div class="marqueeTrack" id="marqueeTrack">
+        <span>Art Direction</span><i>•</i>
+        <span>Brand Identity</span><i>•</i>
+        <span>Editorial Design</span><i>•</i>
+        <span>Portrait Photography</span><i>•</i>
+        <span>Motion Studies</span><i>•</i>
+        <span>Type Design</span><i>•</i>
+        <span>Art Direction</span><i>•</i>
+        <span>Brand Identity</span><i>•</i>
+        <span>Editorial Design</span><i>•</i>
+        <span>Portrait Photography</span><i>•</i>
+        <span>Motion Studies</span><i>•</i>
+        <span>Type Design</span><i>•</i>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="secHead reveal">
+        <p class="kicker">01 · Selected Work</p>
+        <h2 class="secTitle">A small shelf of favourite projects.</h2>
+        <p class="secSub">Six case studies across identity, photo and digital. Use the filters to reshape the grid, then open any tile for a closer look.</p>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="Filter projects">
+        <button class="chip ison" data-filter="all">All</button>
+        <button class="chip" data-filter="branding">Branding</button>
+        <button class="chip" data-filter="photo">Photo</button>
+        <button class="chip" data-filter="digital">Digital</button>
+      </div>
+
+      <div class="grid" id="workGrid">
+
+        <article class="card reveal" data-cat="branding" data-title="Sol Bakery Identity" data-desc="Logo suite, packaging and shop signage for a neighbourhood bakery. Warm ink, cream stock and one loud terracotta." data-meta="Branding · 2025 · Logo, Print, Signage">
+          <div class="tile tileA" aria-hidden="true">
+            <div class="tCircle"></div><div class="tBar"></div>
+            <svg viewBox="0 0 120 120" class="tSvg"><circle cx="60" cy="52" r="26" fill="#1A1A1A"/><rect x="34" y="84" width="52" height="10" rx="5" fill="#1A1A1A"/></svg>
+          </div>
+          <div class="cardBody">
+            <p class="ctag">Branding</p>
+            <h3>Sol Bakery Identity</h3>
+            <p>Logo suite plus packaging for a corner bakery.</p>
+            <button class="textbtn" data-open>Open preview</button>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="photo" data-title="Quiet Mornings" data-desc="A photo essay on slow routines. Soft window light, linen textures and honest portraits shot on film." data-meta="Photo · 2025 · 32 frames, Film">
+          <div class="tile tileB" aria-hidden="true">
+            <div class="tFrame"><div class="tSunSmall"></div><div class="tHills"></div></div>
+          </div>
+          <div class="cardBody">
+            <p class="ctag">Photo</p>
+            <h3>Quiet Mornings</h3>
+            <p>Film essay on slow routines and soft light.</p>
+            <button class="textbtn" data-open>Open preview</button>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="digital" data-title="Bloom Shop Online" data-desc="Storefront design for a plant studio. Big type, roomy cards and a checkout that feels calm and clear." data-meta="Digital · 2024 · Web Design, Storefront">
+          <div class="tile tileC" aria-hidden="true">
+            <div class="mock"><span></span><span></span><span class="wide"></span></div>
+            <div class="mockDot"></div>
+          </div>
+          <div class="cardBody">
+            <p class="ctag">Digital</p>
+            <h3>Bloom Shop Online</h3>
+            <p>Calm storefront for a local plant studio.</p>
+            <button class="textbtn" data-open>Open preview</button>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="branding" data-title="Fable Wine Labels" data-desc="Label system for a small vineyard. Numbered editions, tactile paper and playful small illustrations." data-meta="Branding · 2024 · Packaging, Illustration">
+          <div class="tile tileD" aria-hidden="true">
+            <div class="bottle"></div><div class="bottle b2nd"></div>
+          </div>
+          <div class="cardBody">
+            <p class="ctag">Branding</p>
+            <h3>Fable Wine Labels</h3>
+            <p>Numbered label series for a small vineyard.</p>
+            <button class="textbtn" data-open>Open preview</button>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="photo" data-title="Coastline Portraits" data-desc="Salt air portraits along the western cliffs. Natural poses, sea wind and unposed laughter." data-meta="Photo · 2023 · Portrait Series">
+          <div class="tile tileE" aria-hidden="true">
+            <div class="wave"></div><div class="wave w2"></div>
+            <svg viewBox="0 0 120 80" class="tSvg"><circle cx="88" cy="24" r="14" fill="#E85D3D"/><circle cx="36" cy="52" r="16" fill="#1A1A1A"/></svg>
+          </div>
+          <div class="cardBody">
+            <p class="ctag">Photo</p>
+            <h3>Coastline Portraits</h3>
+            <p>Windy sea portraits shot on the cliffs.</p>
+            <button class="textbtn" data-open>Open preview</button>
+          </div>
+        </article>
+
+        <article class="card reveal" data-cat="digital" data-title="Pulse Editorial App" data-desc="Reading app for long form culture writing. Oversize headlines, gentle spacing and night mode in warm ink." data-meta="Digital · 2023 · App, Editorial">
+          <div class="tile tileF" aria-hidden="true">
+            <div class="phone"><span></span><span></span><span class="short"></span></div>
+          </div>
+          <div class="cardBody">
+            <p class="ctag">Digital</p>
+            <h3>Pulse Editorial App</h3>
+            <p>Reading app for slow culture journalism.</p>
+            <button class="textbtn" data-open>Open preview</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section sectionAlt" id="about">
+    <div class="wrap">
+      <div class="secHead reveal">
+        <p class="kicker">02 · About</p>
+        <h2 class="secTitle">Warm minimalism with a playful edge.</h2>
+      </div>
+      <div class="aboutGrid">
+        <div class="aboutCopy reveal">
+          <p class="bigPara">For nine years I have helped studios, shops and publishers find a clear visual voice. My work pairs solid colour with generous white space and honest photography.</p>
+          <p class="muted">I lead every project from first sketch to final delivery. Expect moodboards you can feel, type you can read from across the room, and files your printer will love.</p>
+          <ul class="checkList">
+            <li><span aria-hidden="true">●</span> Strategy call plus visual audit</li>
+            <li><span aria-hidden="true">●</span> Two creative directions, one refined final</li>
+            <li><span aria-hidden="true">●</span> Print ready and screen ready delivery</li>
+          </ul>
+          <div class="serviceBox">
+            <h3>Services</h3>
+            <ul class="services">
+              <li><span class="snum">01</span><div><strong>Brand Identity</strong><p>Logo, colour, voice and usage rules.</p></div></li>
+              <li><span class="snum">02</span><div><strong>Editorial Design</strong><p>Books, lookbooks and magazines.</p></div></li>
+              <li><span class="snum">03</span><div><strong>Photography</strong><p>Portrait, interior and process stories.</p></div></li>
+              <li><span class="snum">04</span><div><strong>Web Design</strong><p>Clear marketing sites that load fast.</p></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline reveal" aria-label="Experience timeline">
+          <h3>Experience</h3>
+          <ol>
+            <li class="tlItem">
+              <span class="tlDot" aria-hidden="true"></span>
+              <p class="tlDate">2023 to today</p>
+              <p class="tlRole">Independent Atelier</p>
+              <p class="tlNote">Brand and photo commissions worldwide.</p>
+            </li>
+            <li class="tlItem">
+              <span class="tlDot" aria-hidden="true"></span>
+              <p class="tlDate">2020 to 2023</p>
+              <p class="tlRole">Senior Designer at Field Studio</p>
+              <p class="tlNote">Led editorial and retail identity work.</p>
+            </li>
+            <li class="tlItem">
+              <span class="tlDot" aria-hidden="true"></span>
+              <p class="tlDate">2018 to 2020</p>
+              <p class="tlRole">Junior Designer at Paper Press</p>
+              <p class="tlNote">Layout, prepress and photo retouch.</p>
+            </li>
+            <li class="tlItem">
+              <span class="tlDot" aria-hidden="true"></span>
+              <p class="tlDate">2017 to 2018</p>
+              <p class="tlRole">Photo Assistant, Studio Norte</p>
+              <p class="tlNote">Lighting, set styling and archiving.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap contactGrid">
+      <div class="reveal">
+        <p class="kicker">03 · Contact</p>
+        <h2 class="secTitle">Tell me about your project.</h2>
+        <p class="secSub">Share a few lines on goals, timing and budget. I reply within two working days.</p>
+        <ul class="contactLines">
+          <li><strong>Email</strong><span>hello@ateliermara.example</span></li>
+          <li><strong>Studio</strong><span>Rua das Flores 42, Lisbon</span></li>
+          <li><strong>Hours</strong><span>Mon to Fri, 9 to 18</span></li>
+        </ul>
+        <div class="socialRow">
+          <a href="#home" aria-label="Instagram">Instagram</a>
+          <a href="#home" aria-label="Behance">Behance</a>
+          <a href="#home" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+      <form class="formCard reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="fname">Your name</label>
+          <input id="fname" name="name" type="text" placeholder="e.g. June Park" autocomplete="name">
+          <small class="err" data-err="name"></small>
+        </div>
+        <div class="field">
+          <label for="femail">Email address</label>
+          <input id="femail" name="email" type="email" placeholder="you@studio.com" autocomplete="email">
+          <small class="err" data-err="email"></small>
+        </div>
+        <div class="field">
+          <label for="ftype">Project type</label>
+          <select id="ftype" name="type">
+            <option>Brand Identity</option>
+            <option>Photography</option>
+            <option>Editorial</option>
+            <option>Website</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fmsg">Project details</label>
+          <textarea id="fmsg" name="message" rows="5" placeholder="Goals, timing and budget in a few lines"></textarea>
+          <small class="err" data-err="message"></small>
+        </div>
+        <button type="submit" class="btn btnaccent btnfull">Send message</button>
+        <p class="success" id="formSuccess" role="status" hidden>Thanks, your note is ready. This demo keeps it in your browser, so please also send it by email.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footGrid">
+    <div>
+      <p class="brandtext">Atelier Mara</p>
+      <p class="footNote">A portfolio template for makers who love print, pixels and photography.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="#home">Home</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="copy">© <span id="year">2026</span> Atelier Mara · All rights reserved</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" hidden>
+  <div class="box" role="dialog" aria-modal="true" aria-label="Project preview">
+    <button class="closeBtn" id="closeBox" aria-label="Close preview">×</button>
+    <p class="ctag" id="boxCat">Branding</p>
+    <h3 id="boxTitle">Project title</h3>
+    <p class="boxMeta" id="boxMeta">Meta</p>
+    <p class="boxDesc" id="boxDesc">Description</p>
+    <div class="boxActions">
+      <a href="#contact" class="btn btnaccent btnsmall" id="boxCta">Start similar project</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
